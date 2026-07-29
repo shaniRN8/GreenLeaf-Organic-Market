@@ -104,3 +104,26 @@ node server/index.js
 
 Access the application in your browser at:
 👉 **`http://localhost:5000`**
+
+---
+
+## 🌐 Deploy to Cloud (Render / Railway / Vercel)
+
+### Option A: Render.com (Recommended for Node + React)
+1. Sign in to [Render.com](https://render.com) and click **New +** -> **Web Service**.
+2. Connect your GitHub repository: `shaniRN8/GreenLeaf-Organic-Market`.
+3. Render will auto-detect `render.yaml` with the following configuration:
+   - **Build Command**: `npm install && npm run build`
+   - **Start Command**: `npm start`
+4. Click **Create Web Service**. Your app will be deployed to a live URL (e.g. `https://greenleaf-organic-market.onrender.com`).
+
+### Option B: Railway.app
+1. Sign in to [Railway.app](https://railway.app) and click **New Project** -> **Deploy from GitHub repo**.
+2. Select `shaniRN8/GreenLeaf-Organic-Market`.
+3. Railway will run `npm install && npm run build` and launch `npm start` automatically.
+
+---
+
+## 📄 License
+Licensed under the [MIT License](LICENSE).
+
