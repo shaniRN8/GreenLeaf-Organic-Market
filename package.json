@@ -5,8 +5,8 @@
   "main": "server/index.js",
   "type": "module",
   "scripts": {
-    "dev": "node server/index.js",
-    "start": "node server/index.js",
+    "dev": "vite",
+     "preview": "vite preview"
     "build": "vite build"
   },
   "dependencies": {
